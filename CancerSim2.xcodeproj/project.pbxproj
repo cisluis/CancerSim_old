@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0858E8B236A344600B7BD5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0858E8A236A344600B7BD5E /* main.cpp */; };
+		A06D8E92237CA9220072B101 /* Unlikely_Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */; };
+		A06D8E93237CA9220072B101 /* CLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E7B237CA9200072B101 /* CLI.cpp */; };
+		A06D8E94237CA9220072B101 /* Small_Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E7C237CA9200072B101 /* Small_Sequence.cpp */; };
+		A06D8E95237CA9220072B101 /* Random_Number_Generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E7D237CA9200072B101 /* Random_Number_Generator.cpp */; };
+		A06D8E96237CA9220072B101 /* Bit_Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E80237CA9200072B101 /* Bit_Vector.cpp */; };
+		A06D8E97237CA9220072B101 /* Tissue_Genotype_History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E83237CA9200072B101 /* Tissue_Genotype_History.cpp */; };
+		A06D8E98237CA9220072B101 /* Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E89237CA9210072B101 /* Hash.cpp */; };
+		A06D8E99237CA9220072B101 /* Limited_History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E8D237CA9210072B101 /* Limited_History.cpp */; };
+		A06D8E9A237CA9220072B101 /* Tissue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E8E237CA9210072B101 /* Tissue.cpp */; };
+		A06D8E9B237CA9220072B101 /* Tissue_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E91237CA9220072B101 /* Tissue_Parameters.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +32,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unlikely_Event.cpp; sourceTree = "<group>"; };
+		A06D8E77237CA9200072B101 /* Limited_History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Limited_History.h; sourceTree = "<group>"; };
+		A06D8E78237CA9200072B101 /* Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
+		A06D8E79237CA9200072B101 /* Bit_Array_2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bit_Array_2d.h; sourceTree = "<group>"; };
+		A06D8E7A237CA9200072B101 /* Small_Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Small_Sequence.h; sourceTree = "<group>"; };
+		A06D8E7B237CA9200072B101 /* CLI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLI.cpp; sourceTree = "<group>"; };
+		A06D8E7C237CA9200072B101 /* Small_Sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Small_Sequence.cpp; sourceTree = "<group>"; };
+		A06D8E7D237CA9200072B101 /* Random_Number_Generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random_Number_Generator.cpp; sourceTree = "<group>"; };
+		A06D8E7E237CA9200072B101 /* Tissue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tissue.h; sourceTree = "<group>"; };
+		A06D8E7F237CA9200072B101 /* Gradient_3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient_3d.h; sourceTree = "<group>"; };
+		A06D8E80237CA9200072B101 /* Bit_Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bit_Vector.cpp; sourceTree = "<group>"; };
+		A06D8E81237CA9200072B101 /* Unlikely_Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unlikely_Event.h; sourceTree = "<group>"; };
+		A06D8E82237CA9200072B101 /* Bit_Array_3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bit_Array_3d.h; sourceTree = "<group>"; };
+		A06D8E83237CA9200072B101 /* Tissue_Genotype_History.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Genotype_History.cpp; sourceTree = "<group>"; };
+		A06D8E84237CA9200072B101 /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		A06D8E85237CA9200072B101 /* Array_3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_3d.h; sourceTree = "<group>"; };
+		A06D8E86237CA9210072B101 /* Array_2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_2d.h; sourceTree = "<group>"; };
+		A06D8E87237CA9210072B101 /* Bit_Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bit_Vector.h; sourceTree = "<group>"; };
+		A06D8E88237CA9210072B101 /* Random_Number_Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random_Number_Generator.h; sourceTree = "<group>"; };
+		A06D8E89237CA9210072B101 /* Hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hash.cpp; sourceTree = "<group>"; };
+		A06D8E8A237CA9210072B101 /* Array_3d_Strip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_3d_Strip.h; sourceTree = "<group>"; };
+		A06D8E8B237CA9210072B101 /* Tissue_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tissue_Parameters.h; sourceTree = "<group>"; };
+		A06D8E8C237CA9210072B101 /* Array_3d_Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_3d_Slice.h; sourceTree = "<group>"; };
+		A06D8E8D237CA9210072B101 /* Limited_History.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Limited_History.cpp; sourceTree = "<group>"; };
+		A06D8E8E237CA9210072B101 /* Tissue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue.cpp; sourceTree = "<group>"; };
+		A06D8E8F237CA9210072B101 /* Tissue_Genotype_History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tissue_Genotype_History.h; sourceTree = "<group>"; };
+		A06D8E90237CA9220072B101 /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		A06D8E91237CA9220072B101 /* Tissue_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Parameters.cpp; sourceTree = "<group>"; };
 		A0858E87236A344600B7BD5E /* CancerSim2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CancerSim2; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0858E8A236A344600B7BD5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +93,34 @@
 		A0858E89236A344600B7BD5E /* CancerSim2 */ = {
 			isa = PBXGroup;
 			children = (
-				A0858E8A236A344600B7BD5E /* main.cpp */,
+				A06D8E86237CA9210072B101 /* Array_2d.h */,
+				A06D8E8C237CA9210072B101 /* Array_3d_Slice.h */,
+				A06D8E8A237CA9210072B101 /* Array_3d_Strip.h */,
+				A06D8E85237CA9200072B101 /* Array_3d.h */,
+				A06D8E79237CA9200072B101 /* Bit_Array_2d.h */,
+				A06D8E82237CA9200072B101 /* Bit_Array_3d.h */,
+				A06D8E80237CA9200072B101 /* Bit_Vector.cpp */,
+				A06D8E87237CA9210072B101 /* Bit_Vector.h */,
+				A06D8E7B237CA9200072B101 /* CLI.cpp */,
+				A06D8E7F237CA9200072B101 /* Gradient_3d.h */,
+				A06D8E89237CA9210072B101 /* Hash.cpp */,
+				A06D8E84237CA9200072B101 /* Hash.h */,
+				A06D8E8D237CA9210072B101 /* Limited_History.cpp */,
+				A06D8E77237CA9200072B101 /* Limited_History.h */,
+				A06D8E90237CA9220072B101 /* Mapping.h */,
+				A06D8E7D237CA9200072B101 /* Random_Number_Generator.cpp */,
+				A06D8E88237CA9210072B101 /* Random_Number_Generator.h */,
+				A06D8E78237CA9200072B101 /* Slice.h */,
+				A06D8E7C237CA9200072B101 /* Small_Sequence.cpp */,
+				A06D8E7A237CA9200072B101 /* Small_Sequence.h */,
+				A06D8E83237CA9200072B101 /* Tissue_Genotype_History.cpp */,
+				A06D8E8F237CA9210072B101 /* Tissue_Genotype_History.h */,
+				A06D8E91237CA9220072B101 /* Tissue_Parameters.cpp */,
+				A06D8E8B237CA9210072B101 /* Tissue_Parameters.h */,
+				A06D8E8E237CA9210072B101 /* Tissue.cpp */,
+				A06D8E7E237CA9200072B101 /* Tissue.h */,
+				A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */,
+				A06D8E81237CA9200072B101 /* Unlikely_Event.h */,
 			);
 			path = CancerSim2;
 			sourceTree = "<group>";
@@ -119,7 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0858E8B236A344600B7BD5E /* main.cpp in Sources */,
+				A06D8E94237CA9220072B101 /* Small_Sequence.cpp in Sources */,
+				A06D8E93237CA9220072B101 /* CLI.cpp in Sources */,
+				A06D8E97237CA9220072B101 /* Tissue_Genotype_History.cpp in Sources */,
+				A06D8E96237CA9220072B101 /* Bit_Vector.cpp in Sources */,
+				A06D8E98237CA9220072B101 /* Hash.cpp in Sources */,
+				A06D8E9A237CA9220072B101 /* Tissue.cpp in Sources */,
+				A06D8E9B237CA9220072B101 /* Tissue_Parameters.cpp in Sources */,
+				A06D8E95237CA9220072B101 /* Random_Number_Generator.cpp in Sources */,
+				A06D8E99237CA9220072B101 /* Limited_History.cpp in Sources */,
+				A06D8E92237CA9220072B101 /* Unlikely_Event.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
