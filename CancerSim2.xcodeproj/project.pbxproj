@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55186CFB23A4582E001B5A99 /* GUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186CF923A4582E001B5A99 /* GUI.cpp */; };
+		55186CFE23A45981001B5A99 /* Case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186CFD23A45981001B5A99 /* Case.cpp */; };
+		55186D0023A45A17001B5A99 /* Tissue_Parameters_Dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186CFF23A45A17001B5A99 /* Tissue_Parameters_Dialog.cpp */; };
+		55186D0323A45D9F001B5A99 /* Color_Key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D0223A45D9F001B5A99 /* Color_Key.cpp */; };
+		55186D0623A45E09001B5A99 /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D0523A45E09001B5A99 /* Palette.cpp */; };
+		55186D0A23A45EDF001B5A99 /* History_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D0923A45EDF001B5A99 /* History_View.cpp */; };
+		55186D0D23A45F4C001B5A99 /* Caption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D0C23A45F4C001B5A99 /* Caption.cpp */; };
+		55186D1123A45FCF001B5A99 /* Connect_Adjacent_Points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D0F23A45FCF001B5A99 /* Connect_Adjacent_Points.cpp */; };
+		55186D1423A4602C001B5A99 /* Dual_3d_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D1223A4602C001B5A99 /* Dual_3d_View.cpp */; };
+		55186D1723A4609C001B5A99 /* gl_pixel_projection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D1523A4609C001B5A99 /* gl_pixel_projection.cpp */; };
+		55186D1A23A460F7001B5A99 /* gl_save_backbuffer_as_bmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D1823A460F7001B5A99 /* gl_save_backbuffer_as_bmp.cpp */; };
+		55186D1D23A4614A001B5A99 /* gl_unproject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D1B23A4614A001B5A99 /* gl_unproject.cpp */; };
+		55186D2023A461D3001B5A99 /* Grid_Vertex_Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D1E23A461D3001B5A99 /* Grid_Vertex_Selection.cpp */; };
+		55186D2323A46214001B5A99 /* Grid_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D2123A46214001B5A99 /* Grid_View.cpp */; };
+		55186D2623A46293001B5A99 /* Multi_Grid_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D2423A46293001B5A99 /* Multi_Grid_View.cpp */; };
+		55186D2923A46347001B5A99 /* resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D2823A46347001B5A99 /* resources.cpp */; };
+		55186D2C23A4638C001B5A99 /* reviewGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D2A23A4638C001B5A99 /* reviewGUI.cpp */; };
+		55186D2E23A463F7001B5A99 /* Strip_Slice_Array_3d_Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D2D23A463F7001B5A99 /* Strip_Slice_Array_3d_Test.cpp */; };
+		55186D3323A46485001B5A99 /* Tissue_Viewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D3123A46485001B5A99 /* Tissue_Viewer.cpp */; };
+		55186D3623A464CC001B5A99 /* Trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D3423A464CC001B5A99 /* Trackball.cpp */; };
+		55186D3923A46509001B5A99 /* View_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D3723A46509001B5A99 /* View_3d.cpp */; };
+		55186D3C23A46542001B5A99 /* wxGLCanvas2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D3A23A46542001B5A99 /* wxGLCanvas2.cpp */; };
+		55186D3F23A46578001B5A99 /* Zoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55186D3D23A46578001B5A99 /* Zoom.cpp */; };
 		A06D8E92237CA9220072B101 /* Unlikely_Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */; };
 		A06D8E93237CA9220072B101 /* CLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E7B237CA9200072B101 /* CLI.cpp */; };
 		A06D8E94237CA9220072B101 /* Small_Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D8E7C237CA9200072B101 /* Small_Sequence.cpp */; };
@@ -32,6 +55,54 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		55186CF923A4582E001B5A99 /* GUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GUI.cpp; sourceTree = "<group>"; };
+		55186CFA23A4582E001B5A99 /* GUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUI.h; sourceTree = "<group>"; };
+		55186CFC23A45908001B5A99 /* Case.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		55186CFD23A45981001B5A99 /* Case.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Case.cpp; sourceTree = "<group>"; };
+		55186CFF23A45A17001B5A99 /* Tissue_Parameters_Dialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Parameters_Dialog.cpp; sourceTree = "<group>"; };
+		55186D0123A45A46001B5A99 /* Tissue_Parameters_Dialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Parameters_Dialog.h; sourceTree = "<group>"; };
+		55186D0223A45D9F001B5A99 /* Color_Key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Color_Key.cpp; sourceTree = "<group>"; };
+		55186D0423A45DCA001B5A99 /* Color_Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color_Key.h; sourceTree = "<group>"; };
+		55186D0523A45E09001B5A99 /* Palette.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Palette.cpp; sourceTree = "<group>"; };
+		55186D0723A45E45001B5A99 /* Palette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		55186D0823A45E73001B5A99 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		55186D0923A45EDF001B5A99 /* History_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = History_View.cpp; sourceTree = "<group>"; };
+		55186D0B23A45F04001B5A99 /* History_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History_View.h; sourceTree = "<group>"; };
+		55186D0C23A45F4C001B5A99 /* Caption.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Caption.cpp; sourceTree = "<group>"; };
+		55186D0E23A45F6F001B5A99 /* Caption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caption.h; sourceTree = "<group>"; };
+		55186D0F23A45FCF001B5A99 /* Connect_Adjacent_Points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Connect_Adjacent_Points.cpp; sourceTree = "<group>"; };
+		55186D1023A45FCF001B5A99 /* Connect_Adjacent_Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Adjacent_Points.h; sourceTree = "<group>"; };
+		55186D1223A4602C001B5A99 /* Dual_3d_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dual_3d_View.cpp; sourceTree = "<group>"; };
+		55186D1323A4602C001B5A99 /* Dual_3d_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dual_3d_View.h; sourceTree = "<group>"; };
+		55186D1523A4609C001B5A99 /* gl_pixel_projection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_pixel_projection.cpp; sourceTree = "<group>"; };
+		55186D1623A4609C001B5A99 /* gl_pixel_projection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_pixel_projection.h; sourceTree = "<group>"; };
+		55186D1823A460F7001B5A99 /* gl_save_backbuffer_as_bmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_save_backbuffer_as_bmp.cpp; sourceTree = "<group>"; };
+		55186D1923A460F7001B5A99 /* gl_save_backbuffer_as_bmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_save_backbuffer_as_bmp.h; sourceTree = "<group>"; };
+		55186D1B23A4614A001B5A99 /* gl_unproject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_unproject.cpp; sourceTree = "<group>"; };
+		55186D1C23A4614A001B5A99 /* gl_unproject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_unproject.h; sourceTree = "<group>"; };
+		55186D1E23A461D3001B5A99 /* Grid_Vertex_Selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid_Vertex_Selection.cpp; sourceTree = "<group>"; };
+		55186D1F23A461D3001B5A99 /* Grid_Vertex_Selection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid_Vertex_Selection.h; sourceTree = "<group>"; };
+		55186D2123A46214001B5A99 /* Grid_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid_View.cpp; sourceTree = "<group>"; };
+		55186D2223A46214001B5A99 /* Grid_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid_View.h; sourceTree = "<group>"; };
+		55186D2423A46293001B5A99 /* Multi_Grid_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multi_Grid_View.cpp; sourceTree = "<group>"; };
+		55186D2523A46293001B5A99 /* Multi_Grid_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multi_Grid_View.h; sourceTree = "<group>"; };
+		55186D2723A462FE001B5A99 /* Point_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point_3d.h; sourceTree = "<group>"; };
+		55186D2823A46347001B5A99 /* resources.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resources.cpp; sourceTree = "<group>"; };
+		55186D2A23A4638C001B5A99 /* reviewGUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reviewGUI.cpp; sourceTree = "<group>"; };
+		55186D2B23A4638C001B5A99 /* reviewGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reviewGUI.h; sourceTree = "<group>"; };
+		55186D2D23A463F7001B5A99 /* Strip_Slice_Array_3d_Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Strip_Slice_Array_3d_Test.cpp; sourceTree = "<group>"; };
+		55186D2F23A4642E001B5A99 /* Strip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strip.h; sourceTree = "<group>"; };
+		55186D3023A46451001B5A99 /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		55186D3123A46485001B5A99 /* Tissue_Viewer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Viewer.cpp; sourceTree = "<group>"; };
+		55186D3223A46485001B5A99 /* Tissue_Viewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Viewer.h; sourceTree = "<group>"; };
+		55186D3423A464CC001B5A99 /* Trackball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trackball.cpp; sourceTree = "<group>"; };
+		55186D3523A464CC001B5A99 /* Trackball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trackball.h; sourceTree = "<group>"; };
+		55186D3723A46509001B5A99 /* View_3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = View_3d.cpp; sourceTree = "<group>"; };
+		55186D3823A46509001B5A99 /* View_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_3d.h; sourceTree = "<group>"; };
+		55186D3A23A46542001B5A99 /* wxGLCanvas2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wxGLCanvas2.cpp; sourceTree = "<group>"; };
+		55186D3B23A46542001B5A99 /* wxGLCanvas2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wxGLCanvas2.h; sourceTree = "<group>"; };
+		55186D3D23A46578001B5A99 /* Zoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Zoom.cpp; sourceTree = "<group>"; };
+		55186D3E23A46578001B5A99 /* Zoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoom.h; sourceTree = "<group>"; };
 		A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unlikely_Event.cpp; sourceTree = "<group>"; };
 		A06D8E77237CA9200072B101 /* Limited_History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Limited_History.h; sourceTree = "<group>"; };
 		A06D8E78237CA9200072B101 /* Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
@@ -101,26 +172,74 @@
 				A06D8E82237CA9200072B101 /* Bit_Array_3d.h */,
 				A06D8E80237CA9200072B101 /* Bit_Vector.cpp */,
 				A06D8E87237CA9210072B101 /* Bit_Vector.h */,
+				55186D0C23A45F4C001B5A99 /* Caption.cpp */,
+				55186D0E23A45F6F001B5A99 /* Caption.h */,
+				55186CFD23A45981001B5A99 /* Case.cpp */,
+				55186CFC23A45908001B5A99 /* Case.h */,
 				A06D8E7B237CA9200072B101 /* CLI.cpp */,
+				55186D0223A45D9F001B5A99 /* Color_Key.cpp */,
+				55186D0423A45DCA001B5A99 /* Color_Key.h */,
+				55186D0823A45E73001B5A99 /* Color.h */,
+				55186D0F23A45FCF001B5A99 /* Connect_Adjacent_Points.cpp */,
+				55186D1023A45FCF001B5A99 /* Connect_Adjacent_Points.h */,
+				55186D1223A4602C001B5A99 /* Dual_3d_View.cpp */,
+				55186D1323A4602C001B5A99 /* Dual_3d_View.h */,
+				55186D1523A4609C001B5A99 /* gl_pixel_projection.cpp */,
+				55186D1623A4609C001B5A99 /* gl_pixel_projection.h */,
+				55186D1823A460F7001B5A99 /* gl_save_backbuffer_as_bmp.cpp */,
+				55186D1923A460F7001B5A99 /* gl_save_backbuffer_as_bmp.h */,
+				55186D1B23A4614A001B5A99 /* gl_unproject.cpp */,
+				55186D1C23A4614A001B5A99 /* gl_unproject.h */,
 				A06D8E7F237CA9200072B101 /* Gradient_3d.h */,
+				55186D1E23A461D3001B5A99 /* Grid_Vertex_Selection.cpp */,
+				55186D1F23A461D3001B5A99 /* Grid_Vertex_Selection.h */,
+				55186D2123A46214001B5A99 /* Grid_View.cpp */,
+				55186D2223A46214001B5A99 /* Grid_View.h */,
+				55186CF923A4582E001B5A99 /* GUI.cpp */,
+				55186CFA23A4582E001B5A99 /* GUI.h */,
 				A06D8E89237CA9210072B101 /* Hash.cpp */,
 				A06D8E84237CA9200072B101 /* Hash.h */,
+				55186D0923A45EDF001B5A99 /* History_View.cpp */,
+				55186D0B23A45F04001B5A99 /* History_View.h */,
 				A06D8E8D237CA9210072B101 /* Limited_History.cpp */,
 				A06D8E77237CA9200072B101 /* Limited_History.h */,
 				A06D8E90237CA9220072B101 /* Mapping.h */,
+				55186D2423A46293001B5A99 /* Multi_Grid_View.cpp */,
+				55186D2523A46293001B5A99 /* Multi_Grid_View.h */,
+				55186D0523A45E09001B5A99 /* Palette.cpp */,
+				55186D0723A45E45001B5A99 /* Palette.h */,
+				55186D2723A462FE001B5A99 /* Point_3d.h */,
 				A06D8E7D237CA9200072B101 /* Random_Number_Generator.cpp */,
 				A06D8E88237CA9210072B101 /* Random_Number_Generator.h */,
+				55186D2823A46347001B5A99 /* resources.cpp */,
+				55186D2A23A4638C001B5A99 /* reviewGUI.cpp */,
+				55186D2B23A4638C001B5A99 /* reviewGUI.h */,
 				A06D8E78237CA9200072B101 /* Slice.h */,
 				A06D8E7C237CA9200072B101 /* Small_Sequence.cpp */,
 				A06D8E7A237CA9200072B101 /* Small_Sequence.h */,
+				55186D2D23A463F7001B5A99 /* Strip_Slice_Array_3d_Test.cpp */,
+				55186D2F23A4642E001B5A99 /* Strip.h */,
+				55186D3023A46451001B5A99 /* Timer.h */,
 				A06D8E83237CA9200072B101 /* Tissue_Genotype_History.cpp */,
 				A06D8E8F237CA9210072B101 /* Tissue_Genotype_History.h */,
+				55186CFF23A45A17001B5A99 /* Tissue_Parameters_Dialog.cpp */,
+				55186D0123A45A46001B5A99 /* Tissue_Parameters_Dialog.h */,
 				A06D8E91237CA9220072B101 /* Tissue_Parameters.cpp */,
 				A06D8E8B237CA9210072B101 /* Tissue_Parameters.h */,
+				55186D3123A46485001B5A99 /* Tissue_Viewer.cpp */,
+				55186D3223A46485001B5A99 /* Tissue_Viewer.h */,
 				A06D8E8E237CA9210072B101 /* Tissue.cpp */,
 				A06D8E7E237CA9200072B101 /* Tissue.h */,
 				A06D8E76237CA91F0072B101 /* Unlikely_Event.cpp */,
 				A06D8E81237CA9200072B101 /* Unlikely_Event.h */,
+				55186D3423A464CC001B5A99 /* Trackball.cpp */,
+				55186D3523A464CC001B5A99 /* Trackball.h */,
+				55186D3723A46509001B5A99 /* View_3d.cpp */,
+				55186D3823A46509001B5A99 /* View_3d.h */,
+				55186D3A23A46542001B5A99 /* wxGLCanvas2.cpp */,
+				55186D3B23A46542001B5A99 /* wxGLCanvas2.h */,
+				55186D3D23A46578001B5A99 /* Zoom.cpp */,
+				55186D3E23A46578001B5A99 /* Zoom.h */,
 			);
 			path = CancerSim2;
 			sourceTree = "<group>";
@@ -151,7 +270,7 @@
 		A0858E7F236A344600B7BD5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Arizona Cancer Evolution Center";
 				TargetAttributes = {
 					A0858E86236A344600B7BD5E = {
@@ -183,15 +302,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06D8E94237CA9220072B101 /* Small_Sequence.cpp in Sources */,
+				55186D0323A45D9F001B5A99 /* Color_Key.cpp in Sources */,
+				55186D3623A464CC001B5A99 /* Trackball.cpp in Sources */,
+				55186D2E23A463F7001B5A99 /* Strip_Slice_Array_3d_Test.cpp in Sources */,
 				A06D8E93237CA9220072B101 /* CLI.cpp in Sources */,
+				55186D0D23A45F4C001B5A99 /* Caption.cpp in Sources */,
+				55186D1723A4609C001B5A99 /* gl_pixel_projection.cpp in Sources */,
+				55186CFB23A4582E001B5A99 /* GUI.cpp in Sources */,
 				A06D8E97237CA9220072B101 /* Tissue_Genotype_History.cpp in Sources */,
+				55186D2923A46347001B5A99 /* resources.cpp in Sources */,
+				55186D1D23A4614A001B5A99 /* gl_unproject.cpp in Sources */,
+				55186D2623A46293001B5A99 /* Multi_Grid_View.cpp in Sources */,
 				A06D8E96237CA9220072B101 /* Bit_Vector.cpp in Sources */,
+				55186D3323A46485001B5A99 /* Tissue_Viewer.cpp in Sources */,
+				55186D2023A461D3001B5A99 /* Grid_Vertex_Selection.cpp in Sources */,
 				A06D8E98237CA9220072B101 /* Hash.cpp in Sources */,
+				55186D3C23A46542001B5A99 /* wxGLCanvas2.cpp in Sources */,
 				A06D8E9A237CA9220072B101 /* Tissue.cpp in Sources */,
+				55186D2C23A4638C001B5A99 /* reviewGUI.cpp in Sources */,
 				A06D8E9B237CA9220072B101 /* Tissue_Parameters.cpp in Sources */,
+				55186D1423A4602C001B5A99 /* Dual_3d_View.cpp in Sources */,
 				A06D8E95237CA9220072B101 /* Random_Number_Generator.cpp in Sources */,
+				55186D0623A45E09001B5A99 /* Palette.cpp in Sources */,
+				55186CFE23A45981001B5A99 /* Case.cpp in Sources */,
+				55186D3F23A46578001B5A99 /* Zoom.cpp in Sources */,
 				A06D8E99237CA9220072B101 /* Limited_History.cpp in Sources */,
+				55186D1A23A460F7001B5A99 /* gl_save_backbuffer_as_bmp.cpp in Sources */,
+				55186D3923A46509001B5A99 /* View_3d.cpp in Sources */,
+				55186D0A23A45EDF001B5A99 /* History_View.cpp in Sources */,
+				55186D1123A45FCF001B5A99 /* Connect_Adjacent_Points.cpp in Sources */,
 				A06D8E92237CA9220072B101 /* Unlikely_Event.cpp in Sources */,
+				55186D2323A46214001B5A99 /* Grid_View.cpp in Sources */,
+				55186D0023A45A17001B5A99 /* Tissue_Parameters_Dialog.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +394,38 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -303,6 +477,38 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -310,6 +516,7 @@
 		A0858E8F236A344600B7BD5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -318,6 +525,7 @@
 		A0858E90236A344600B7BD5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
