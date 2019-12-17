@@ -1,4 +1,4 @@
 Build/
-CancerSim2.xcodeproj
+build_cmake/
+CancerSim2.xcodeproj/
 .DS_Store
-
