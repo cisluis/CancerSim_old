@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/lhcisner/ASU_Drive/My Drive/CancerSim/CancerSim2/build_cmake",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I\"/Users/lhcisner/ASU_Drive/My Drive/CancerSim/CancerSim2/src/../include\"   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/CancerSim2.dir/CLI.cpp.o -c \"/Users/lhcisner/ASU_Drive/My Drive/CancerSim/CancerSim2/src/CLI.cpp\"",
+  "file": "/Users/lhcisner/ASU_Drive/My Drive/CancerSim/CancerSim2/src/CLI.cpp"
+}
+]

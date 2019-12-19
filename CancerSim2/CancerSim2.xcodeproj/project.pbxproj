@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5548A1BB23A9609300BC661C /* Tissue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55BD3D4623A95A0800C611BA /* Tissue.cpp */; };
+		5548A1BC23A960A100BC661C /* Bit_Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1BA23A95EE400BC661C /* Bit_Vector.cpp */; };
+		5548A1BD23A960A100BC661C /* Tissue_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1B823A95E4F00BC661C /* Tissue_Parameters.cpp */; };
+		5548A1BE23A960A100BC661C /* Small_Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1B623A95DA000BC661C /* Small_Sequence.cpp */; };
+		5548A1BF23A960A100BC661C /* Unlikely_Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1B423A95D3E00BC661C /* Unlikely_Event.cpp */; };
+		5548A1C023A960A100BC661C /* Random_Number_Generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1B223A95C5500BC661C /* Random_Number_Generator.cpp */; };
+		5548A1C223A960D700BC661C /* Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1C123A960D700BC661C /* Hash.cpp */; };
+		55BD3D3D23A9526000C611BA /* CLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55BD3D3C23A9526000C611BA /* CLI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55BD3D3023A951FA00C611BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5548A1AF23A95B2700BC661C /* Array_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_3d.h; sourceTree = "<group>"; };
+		5548A1B023A95BAB00BC661C /* Bit_Array_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit_Array_3d.h; sourceTree = "<group>"; };
+		5548A1B123A95BFB00BC661C /* Bit_Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit_Vector.h; sourceTree = "<group>"; };
+		5548A1B223A95C5500BC661C /* Random_Number_Generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random_Number_Generator.cpp; sourceTree = "<group>"; };
+		5548A1B323A95C8800BC661C /* Random_Number_Generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random_Number_Generator.h; sourceTree = "<group>"; };
+		5548A1B423A95D3E00BC661C /* Unlikely_Event.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unlikely_Event.cpp; sourceTree = "<group>"; };
+		5548A1B523A95D6B00BC661C /* Unlikely_Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unlikely_Event.h; sourceTree = "<group>"; };
+		5548A1B623A95DA000BC661C /* Small_Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Small_Sequence.cpp; sourceTree = "<group>"; };
+		5548A1B723A95E0B00BC661C /* Small_Sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Small_Sequence.h; sourceTree = "<group>"; };
+		5548A1B823A95E4F00BC661C /* Tissue_Parameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Parameters.cpp; sourceTree = "<group>"; };
+		5548A1B923A95E9000BC661C /* Tissue_Parameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Parameters.h; sourceTree = "<group>"; };
+		5548A1BA23A95EE400BC661C /* Bit_Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bit_Vector.cpp; sourceTree = "<group>"; };
+		5548A1C123A960D700BC661C /* Hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hash.cpp; sourceTree = "<group>"; };
+		5548A1C423A9613200BC661C /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		55BD3D3223A951FA00C611BA /* CancerSim2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CancerSim2; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD3D3C23A9526000C611BA /* CLI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLI.cpp; sourceTree = "<group>"; };
+		55BD3D4123A9576B00C611BA /* Tissue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue.h; sourceTree = "<group>"; };
+		55BD3D4223A9580600C611BA /* Gradient_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gradient_3d.h; sourceTree = "<group>"; };
+		55BD3D4623A95A0800C611BA /* Tissue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BD3D2F23A951FA00C611BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BD3D2923A951FA00C611BA = {
+			isa = PBXGroup;
+			children = (
+				55BD3D4023A9574E00C611BA /* include */,
+				55BD3D3423A951FA00C611BA /* src */,
+				55BD3D3323A951FA00C611BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BD3D3323A951FA00C611BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BD3D3223A951FA00C611BA /* CancerSim2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BD3D3423A951FA00C611BA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5548A1BA23A95EE400BC661C /* Bit_Vector.cpp */,
+				5548A1B823A95E4F00BC661C /* Tissue_Parameters.cpp */,
+				5548A1B623A95DA000BC661C /* Small_Sequence.cpp */,
+				5548A1B423A95D3E00BC661C /* Unlikely_Event.cpp */,
+				5548A1B223A95C5500BC661C /* Random_Number_Generator.cpp */,
+				5548A1C123A960D700BC661C /* Hash.cpp */,
+				55BD3D4623A95A0800C611BA /* Tissue.cpp */,
+				55BD3D3C23A9526000C611BA /* CLI.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		55BD3D4023A9574E00C611BA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5548A1C423A9613200BC661C /* Hash.h */,
+				5548A1B723A95E0B00BC661C /* Small_Sequence.h */,
+				5548A1B523A95D6B00BC661C /* Unlikely_Event.h */,
+				5548A1B323A95C8800BC661C /* Random_Number_Generator.h */,
+				55BD3D4123A9576B00C611BA /* Tissue.h */,
+				55BD3D4223A9580600C611BA /* Gradient_3d.h */,
+				5548A1AF23A95B2700BC661C /* Array_3d.h */,
+				5548A1B023A95BAB00BC661C /* Bit_Array_3d.h */,
+				5548A1B123A95BFB00BC661C /* Bit_Vector.h */,
+				5548A1B923A95E9000BC661C /* Tissue_Parameters.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BD3D3123A951FA00C611BA /* CancerSim2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BD3D3923A951FA00C611BA /* Build configuration list for PBXNativeTarget "CancerSim2" */;
+			buildPhases = (
+				55BD3D2E23A951FA00C611BA /* Sources */,
+				55BD3D2F23A951FA00C611BA /* Frameworks */,
+				55BD3D3023A951FA00C611BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CancerSim2;
+			productName = CancerSim2;
+			productReference = 55BD3D3223A951FA00C611BA /* CancerSim2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BD3D2A23A951FA00C611BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Luis Cisneros";
+				TargetAttributes = {
+					55BD3D3123A951FA00C611BA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 55BD3D2D23A951FA00C611BA /* Build configuration list for PBXProject "CancerSim2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55BD3D2923A951FA00C611BA;
+			productRefGroup = 55BD3D3323A951FA00C611BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BD3D3123A951FA00C611BA /* CancerSim2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BD3D2E23A951FA00C611BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5548A1BE23A960A100BC661C /* Small_Sequence.cpp in Sources */,
+				5548A1BB23A9609300BC661C /* Tissue.cpp in Sources */,
+				5548A1C023A960A100BC661C /* Random_Number_Generator.cpp in Sources */,
+				55BD3D3D23A9526000C611BA /* CLI.cpp in Sources */,
+				5548A1BF23A960A100BC661C /* Unlikely_Event.cpp in Sources */,
+				5548A1C223A960D700BC661C /* Hash.cpp in Sources */,
+				5548A1BD23A960A100BC661C /* Tissue_Parameters.cpp in Sources */,
+				5548A1BC23A960A100BC661C /* Bit_Vector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55BD3D3723A951FA00C611BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INCLUDED_SOURCE_FILE_NAMES[arch=*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55BD3D3823A951FA00C611BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55BD3D3A23A951FA00C611BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55BD3D3B23A951FA00C611BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = include/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BD3D2D23A951FA00C611BA /* Build configuration list for PBXProject "CancerSim2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD3D3723A951FA00C611BA /* Debug */,
+				55BD3D3823A951FA00C611BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BD3D3923A951FA00C611BA /* Build configuration list for PBXNativeTarget "CancerSim2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD3D3A23A951FA00C611BA /* Debug */,
+				55BD3D3B23A951FA00C611BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55BD3D2A23A951FA00C611BA /* Project object */;
+}

@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5548A1FF23A97DF400BC661C /* GUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A1FE23A97DF400BC661C /* GUI.cpp */; };
+		5548A20323A981B500BC661C /* Case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A20223A981B500BC661C /* Case.cpp */; };
+		5548A20623A9825A00BC661C /* Dual_3d_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A20523A9825A00BC661C /* Dual_3d_View.cpp */; };
+		5548A20A23A982DA00BC661C /* View_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A20923A982DA00BC661C /* View_3d.cpp */; };
+		5548A20D23A9833B00BC661C /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A20C23A9833B00BC661C /* Palette.cpp */; };
+		5548A21123A986F800BC661C /* Multi_Grid_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A21023A986F800BC661C /* Multi_Grid_View.cpp */; };
+		5548A21823A98EA900BC661C /* Bit_Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A21723A98EA900BC661C /* Bit_Vector.cpp */; };
+		5548A21C23A98F4C00BC661C /* Connect_Adjacent_Points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A21B23A98F4C00BC661C /* Connect_Adjacent_Points.cpp */; };
+		5548A22023A98FE800BC661C /* Trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A21F23A98FE800BC661C /* Trackball.cpp */; };
+		5548A22423A9908A00BC661C /* Grid_Vertex_Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A22323A9908A00BC661C /* Grid_Vertex_Selection.cpp */; };
+		5548A22723A9916A00BC661C /* Zoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5548A22623A9916A00BC661C /* Zoom.cpp */; };
+		55FF312723A99B8000D68385 /* Caption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF312623A99B8000D68385 /* Caption.cpp */; };
+		55FF312A23A99BF100D68385 /* gl_pixel_projection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF312923A99BF100D68385 /* gl_pixel_projection.cpp */; };
+		55FF312D23A99C9600D68385 /* gl_save_backbuffer_as_bmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF312C23A99C9600D68385 /* gl_save_backbuffer_as_bmp.cpp */; };
+		55FF313023A99CF300D68385 /* History_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF312F23A99CF300D68385 /* History_View.cpp */; };
+		55FF313323A99DA300D68385 /* Tissue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF313223A99DA300D68385 /* Tissue.cpp */; };
+		55FF313723A99E5700D68385 /* Random_Number_Generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF313623A99E5700D68385 /* Random_Number_Generator.cpp */; };
+		55FF313A23A99EA900D68385 /* Unlikely_Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF313923A99EA900D68385 /* Unlikely_Event.cpp */; };
+		55FF313D23A99EF600D68385 /* Small_Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF313C23A99EF600D68385 /* Small_Sequence.cpp */; };
+		55FF314023A99F4C00D68385 /* Tissue_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF313F23A99F4C00D68385 /* Tissue_Parameters.cpp */; };
+		55FF314323A99FC700D68385 /* Tissue_Genotype_History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF314223A99FC700D68385 /* Tissue_Genotype_History.cpp */; };
+		55FF314623A9A08D00D68385 /* Color_Key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF314523A9A08D00D68385 /* Color_Key.cpp */; };
+		55FF314923A9A0E600D68385 /* Limited_History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF314823A9A0E600D68385 /* Limited_History.cpp */; };
+		55FF314C23A9A13E00D68385 /* wxGLCanvas2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF314B23A9A13E00D68385 /* wxGLCanvas2.cpp */; };
+		55FF314F23A9A18F00D68385 /* Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF314E23A9A18F00D68385 /* Hash.cpp */; };
+		55FF315223A9A20800D68385 /* gl_unproject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF315123A9A20800D68385 /* gl_unproject.cpp */; };
+		55FF315723A9A2F200D68385 /* reviewGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF315623A9A2F200D68385 /* reviewGUI.cpp */; };
+		55FF315923A9A32B00D68385 /* Tissue_Parameters_Dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF315823A9A32B00D68385 /* Tissue_Parameters_Dialog.cpp */; };
+		55FF315F23A9A43400D68385 /* Grid_View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF315E23A9A43400D68385 /* Grid_View.cpp */; };
+		55FF316423A9A4FB00D68385 /* Strip_Slice_Array_3d_Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FF316323A9A4FB00D68385 /* Strip_Slice_Array_3d_Test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5548A1F223A97D8C00BC661C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5548A1F423A97D8C00BC661C /* CancerSim2_GUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CancerSim2_GUI; sourceTree = BUILT_PRODUCTS_DIR; };
+		5548A1FE23A97DF400BC661C /* GUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GUI.cpp; sourceTree = "<group>"; };
+		5548A20123A97E4F00BC661C /* GUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUI.h; sourceTree = "<group>"; };
+		5548A20223A981B500BC661C /* Case.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Case.cpp; sourceTree = "<group>"; };
+		5548A20423A981E300BC661C /* Case.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		5548A20523A9825A00BC661C /* Dual_3d_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dual_3d_View.cpp; sourceTree = "<group>"; };
+		5548A20823A982A400BC661C /* Dual_3d_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dual_3d_View.h; sourceTree = "<group>"; };
+		5548A20923A982DA00BC661C /* View_3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = View_3d.cpp; sourceTree = "<group>"; };
+		5548A20B23A9830500BC661C /* View_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_3d.h; sourceTree = "<group>"; };
+		5548A20C23A9833B00BC661C /* Palette.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Palette.cpp; sourceTree = "<group>"; };
+		5548A20E23A9836600BC661C /* Palette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		5548A20F23A9839A00BC661C /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		5548A21023A986F800BC661C /* Multi_Grid_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multi_Grid_View.cpp; sourceTree = "<group>"; };
+		5548A21223A9874900BC661C /* Multi_Grid_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multi_Grid_View.h; sourceTree = "<group>"; };
+		5548A21323A98C8F00BC661C /* Array_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_3d.h; sourceTree = "<group>"; };
+		5548A21423A98D3F00BC661C /* Array_3d_Slice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_3d_Slice.h; sourceTree = "<group>"; };
+		5548A21523A98D7D00BC661C /* Slice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
+		5548A21623A98DC100BC661C /* Bit_Array_2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit_Array_2d.h; sourceTree = "<group>"; };
+		5548A21723A98EA900BC661C /* Bit_Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bit_Vector.cpp; sourceTree = "<group>"; };
+		5548A21923A98ED900BC661C /* Bit_Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit_Vector.h; sourceTree = "<group>"; };
+		5548A21A23A98F1000BC661C /* Array_2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_2d.h; sourceTree = "<group>"; };
+		5548A21B23A98F4C00BC661C /* Connect_Adjacent_Points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Connect_Adjacent_Points.cpp; sourceTree = "<group>"; };
+		5548A21D23A98F7500BC661C /* Connect_Adjacent_Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Adjacent_Points.h; sourceTree = "<group>"; };
+		5548A21E23A98FB500BC661C /* Bit_Array_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit_Array_3d.h; sourceTree = "<group>"; };
+		5548A21F23A98FE800BC661C /* Trackball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trackball.cpp; sourceTree = "<group>"; };
+		5548A22123A9901400BC661C /* Trackball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trackball.h; sourceTree = "<group>"; };
+		5548A22223A9905300BC661C /* Point_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point_3d.h; sourceTree = "<group>"; };
+		5548A22323A9908A00BC661C /* Grid_Vertex_Selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid_Vertex_Selection.cpp; sourceTree = "<group>"; };
+		5548A22523A990AC00BC661C /* Grid_Vertex_Selection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid_Vertex_Selection.h; sourceTree = "<group>"; };
+		5548A22623A9916A00BC661C /* Zoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Zoom.cpp; sourceTree = "<group>"; };
+		5548A22923A991B700BC661C /* Zoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoom.h; sourceTree = "<group>"; };
+		5548A22A23A991E400BC661C /* Array_3d_Strip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_3d_Strip.h; sourceTree = "<group>"; };
+		5571709523AAB0510009905E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5571709723AAC8F60009905E /* glcanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glcanvas.h; sourceTree = "<group>"; };
+		55FF312523A996B000D68385 /* Strip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strip.h; sourceTree = "<group>"; };
+		55FF312623A99B8000D68385 /* Caption.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Caption.cpp; sourceTree = "<group>"; };
+		55FF312823A99BAD00D68385 /* Caption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caption.h; sourceTree = "<group>"; };
+		55FF312923A99BF100D68385 /* gl_pixel_projection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_pixel_projection.cpp; sourceTree = "<group>"; };
+		55FF312B23A99C0E00D68385 /* gl_pixel_projection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_pixel_projection.h; sourceTree = "<group>"; };
+		55FF312C23A99C9600D68385 /* gl_save_backbuffer_as_bmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_save_backbuffer_as_bmp.cpp; sourceTree = "<group>"; };
+		55FF312E23A99CB200D68385 /* gl_save_backbuffer_as_bmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_save_backbuffer_as_bmp.h; sourceTree = "<group>"; };
+		55FF312F23A99CF300D68385 /* History_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = History_View.cpp; sourceTree = "<group>"; };
+		55FF313123A99D1300D68385 /* History_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History_View.h; sourceTree = "<group>"; };
+		55FF313223A99DA300D68385 /* Tissue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue.cpp; sourceTree = "<group>"; };
+		55FF313423A99DD100D68385 /* Tissue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue.h; sourceTree = "<group>"; };
+		55FF313523A99E1D00D68385 /* Gradient_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gradient_3d.h; sourceTree = "<group>"; };
+		55FF313623A99E5700D68385 /* Random_Number_Generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random_Number_Generator.cpp; sourceTree = "<group>"; };
+		55FF313823A99E7600D68385 /* Random_Number_Generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random_Number_Generator.h; sourceTree = "<group>"; };
+		55FF313923A99EA900D68385 /* Unlikely_Event.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unlikely_Event.cpp; sourceTree = "<group>"; };
+		55FF313B23A99ECD00D68385 /* Unlikely_Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unlikely_Event.h; sourceTree = "<group>"; };
+		55FF313C23A99EF600D68385 /* Small_Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Small_Sequence.cpp; sourceTree = "<group>"; };
+		55FF313E23A99F1700D68385 /* Small_Sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Small_Sequence.h; sourceTree = "<group>"; };
+		55FF313F23A99F4C00D68385 /* Tissue_Parameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Parameters.cpp; sourceTree = "<group>"; };
+		55FF314123A99F7900D68385 /* Tissue_Parameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Parameters.h; sourceTree = "<group>"; };
+		55FF314223A99FC700D68385 /* Tissue_Genotype_History.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Genotype_History.cpp; sourceTree = "<group>"; };
+		55FF314423A99FE700D68385 /* Tissue_Genotype_History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Genotype_History.h; sourceTree = "<group>"; };
+		55FF314523A9A08D00D68385 /* Color_Key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Color_Key.cpp; sourceTree = "<group>"; };
+		55FF314723A9A0AA00D68385 /* Color_Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color_Key.h; sourceTree = "<group>"; };
+		55FF314823A9A0E600D68385 /* Limited_History.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Limited_History.cpp; sourceTree = "<group>"; };
+		55FF314A23A9A10300D68385 /* Limited_History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Limited_History.h; sourceTree = "<group>"; };
+		55FF314B23A9A13E00D68385 /* wxGLCanvas2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wxGLCanvas2.cpp; sourceTree = "<group>"; };
+		55FF314D23A9A16200D68385 /* wxGLCanvas2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wxGLCanvas2.h; sourceTree = "<group>"; };
+		55FF314E23A9A18F00D68385 /* Hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hash.cpp; sourceTree = "<group>"; };
+		55FF315023A9A1AE00D68385 /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		55FF315123A9A20800D68385 /* gl_unproject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl_unproject.cpp; sourceTree = "<group>"; };
+		55FF315323A9A22F00D68385 /* gl_unproject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_unproject.h; sourceTree = "<group>"; };
+		55FF315423A9A27D00D68385 /* Mapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		55FF315523A9A2CA00D68385 /* reviewGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reviewGUI.h; sourceTree = "<group>"; };
+		55FF315623A9A2F200D68385 /* reviewGUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reviewGUI.cpp; sourceTree = "<group>"; };
+		55FF315823A9A32B00D68385 /* Tissue_Parameters_Dialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tissue_Parameters_Dialog.cpp; sourceTree = "<group>"; };
+		55FF315A23A9A34D00D68385 /* Tissue_Parameters_Dialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tissue_Parameters_Dialog.h; sourceTree = "<group>"; };
+		55FF315E23A9A43400D68385 /* Grid_View.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid_View.cpp; sourceTree = "<group>"; };
+		55FF316023A9A45000D68385 /* Grid_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid_View.h; sourceTree = "<group>"; };
+		55FF316323A9A4FB00D68385 /* Strip_Slice_Array_3d_Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Strip_Slice_Array_3d_Test.cpp; sourceTree = "<group>"; };
+		55FF316623A9A9D700D68385 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5548A1F123A97D8C00BC661C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5548A1EB23A97D8C00BC661C = {
+			isa = PBXGroup;
+			children = (
+				5548A20023A97E1800BC661C /* include */,
+				5548A1F623A97D8C00BC661C /* src */,
+				5548A1F523A97D8C00BC661C /* Products */,
+				55FF316523A9A9D600D68385 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5548A1F523A97D8C00BC661C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5548A1F423A97D8C00BC661C /* CancerSim2_GUI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5548A1F623A97D8C00BC661C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5548A21723A98EA900BC661C /* Bit_Vector.cpp */,
+				55FF312623A99B8000D68385 /* Caption.cpp */,
+				5548A20223A981B500BC661C /* Case.cpp */,
+				55FF314523A9A08D00D68385 /* Color_Key.cpp */,
+				5548A21B23A98F4C00BC661C /* Connect_Adjacent_Points.cpp */,
+				5548A20523A9825A00BC661C /* Dual_3d_View.cpp */,
+				55FF312923A99BF100D68385 /* gl_pixel_projection.cpp */,
+				55FF312C23A99C9600D68385 /* gl_save_backbuffer_as_bmp.cpp */,
+				55FF315123A9A20800D68385 /* gl_unproject.cpp */,
+				5548A22323A9908A00BC661C /* Grid_Vertex_Selection.cpp */,
+				55FF315E23A9A43400D68385 /* Grid_View.cpp */,
+				5548A1FE23A97DF400BC661C /* GUI.cpp */,
+				55FF314E23A9A18F00D68385 /* Hash.cpp */,
+				55FF312F23A99CF300D68385 /* History_View.cpp */,
+				55FF314823A9A0E600D68385 /* Limited_History.cpp */,
+				5548A21023A986F800BC661C /* Multi_Grid_View.cpp */,
+				5548A20C23A9833B00BC661C /* Palette.cpp */,
+				55FF313623A99E5700D68385 /* Random_Number_Generator.cpp */,
+				55FF315623A9A2F200D68385 /* reviewGUI.cpp */,
+				55FF313C23A99EF600D68385 /* Small_Sequence.cpp */,
+				55FF316323A9A4FB00D68385 /* Strip_Slice_Array_3d_Test.cpp */,
+				55FF314223A99FC700D68385 /* Tissue_Genotype_History.cpp */,
+				55FF315823A9A32B00D68385 /* Tissue_Parameters_Dialog.cpp */,
+				55FF313F23A99F4C00D68385 /* Tissue_Parameters.cpp */,
+				55FF313223A99DA300D68385 /* Tissue.cpp */,
+				5548A21F23A98FE800BC661C /* Trackball.cpp */,
+				55FF313923A99EA900D68385 /* Unlikely_Event.cpp */,
+				5548A20923A982DA00BC661C /* View_3d.cpp */,
+				55FF314B23A9A13E00D68385 /* wxGLCanvas2.cpp */,
+				5548A22623A9916A00BC661C /* Zoom.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5548A20023A97E1800BC661C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5548A21A23A98F1000BC661C /* Array_2d.h */,
+				5548A21423A98D3F00BC661C /* Array_3d_Slice.h */,
+				5548A22A23A991E400BC661C /* Array_3d_Strip.h */,
+				5548A21323A98C8F00BC661C /* Array_3d.h */,
+				5548A21623A98DC100BC661C /* Bit_Array_2d.h */,
+				5548A21E23A98FB500BC661C /* Bit_Array_3d.h */,
+				5548A21923A98ED900BC661C /* Bit_Vector.h */,
+				55FF312823A99BAD00D68385 /* Caption.h */,
+				5548A20423A981E300BC661C /* Case.h */,
+				55FF314723A9A0AA00D68385 /* Color_Key.h */,
+				5548A20F23A9839A00BC661C /* Color.h */,
+				5548A21D23A98F7500BC661C /* Connect_Adjacent_Points.h */,
+				5548A20823A982A400BC661C /* Dual_3d_View.h */,
+				55FF312B23A99C0E00D68385 /* gl_pixel_projection.h */,
+				55FF312E23A99CB200D68385 /* gl_save_backbuffer_as_bmp.h */,
+				55FF315323A9A22F00D68385 /* gl_unproject.h */,
+				55FF313523A99E1D00D68385 /* Gradient_3d.h */,
+				5548A22523A990AC00BC661C /* Grid_Vertex_Selection.h */,
+				55FF316023A9A45000D68385 /* Grid_View.h */,
+				5548A20123A97E4F00BC661C /* GUI.h */,
+				55FF315023A9A1AE00D68385 /* Hash.h */,
+				55FF313123A99D1300D68385 /* History_View.h */,
+				55FF314A23A9A10300D68385 /* Limited_History.h */,
+				55FF315423A9A27D00D68385 /* Mapping.h */,
+				5548A21223A9874900BC661C /* Multi_Grid_View.h */,
+				5548A20E23A9836600BC661C /* Palette.h */,
+				5548A22223A9905300BC661C /* Point_3d.h */,
+				55FF313823A99E7600D68385 /* Random_Number_Generator.h */,
+				55FF315523A9A2CA00D68385 /* reviewGUI.h */,
+				5548A21523A98D7D00BC661C /* Slice.h */,
+				55FF313E23A99F1700D68385 /* Small_Sequence.h */,
+				55FF312523A996B000D68385 /* Strip.h */,
+				55FF314423A99FE700D68385 /* Tissue_Genotype_History.h */,
+				55FF315A23A9A34D00D68385 /* Tissue_Parameters_Dialog.h */,
+				55FF314123A99F7900D68385 /* Tissue_Parameters.h */,
+				55FF313423A99DD100D68385 /* Tissue.h */,
+				5548A22123A9901400BC661C /* Trackball.h */,
+				55FF313B23A99ECD00D68385 /* Unlikely_Event.h */,
+				5548A20B23A9830500BC661C /* View_3d.h */,
+				55FF314D23A9A16200D68385 /* wxGLCanvas2.h */,
+				5548A22923A991B700BC661C /* Zoom.h */,
+				5571709723AAC8F60009905E /* glcanvas.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		55FF316523A9A9D600D68385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5571709523AAB0510009905E /* GLUT.framework */,
+				55FF316623A9A9D700D68385 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5548A1F323A97D8C00BC661C /* CancerSim2_GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5548A1FB23A97D8C00BC661C /* Build configuration list for PBXNativeTarget "CancerSim2_GUI" */;
+			buildPhases = (
+				5548A1F023A97D8C00BC661C /* Sources */,
+				5548A1F123A97D8C00BC661C /* Frameworks */,
+				5548A1F223A97D8C00BC661C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CancerSim2_GUI;
+			productName = CancerSim2_GUI;
+			productReference = 5548A1F423A97D8C00BC661C /* CancerSim2_GUI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5548A1EC23A97D8C00BC661C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Luis Cisneros";
+				TargetAttributes = {
+					5548A1F323A97D8C00BC661C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5548A1EF23A97D8C00BC661C /* Build configuration list for PBXProject "CancerSim2_GUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5548A1EB23A97D8C00BC661C;
+			productRefGroup = 5548A1F523A97D8C00BC661C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5548A1F323A97D8C00BC661C /* CancerSim2_GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5548A1F023A97D8C00BC661C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FF314C23A9A13E00D68385 /* wxGLCanvas2.cpp in Sources */,
+				5548A22423A9908A00BC661C /* Grid_Vertex_Selection.cpp in Sources */,
+				55FF316423A9A4FB00D68385 /* Strip_Slice_Array_3d_Test.cpp in Sources */,
+				5548A21123A986F800BC661C /* Multi_Grid_View.cpp in Sources */,
+				55FF312D23A99C9600D68385 /* gl_save_backbuffer_as_bmp.cpp in Sources */,
+				55FF315F23A9A43400D68385 /* Grid_View.cpp in Sources */,
+				55FF314923A9A0E600D68385 /* Limited_History.cpp in Sources */,
+				5548A22723A9916A00BC661C /* Zoom.cpp in Sources */,
+				5548A20D23A9833B00BC661C /* Palette.cpp in Sources */,
+				5548A22023A98FE800BC661C /* Trackball.cpp in Sources */,
+				5548A1FF23A97DF400BC661C /* GUI.cpp in Sources */,
+				55FF313723A99E5700D68385 /* Random_Number_Generator.cpp in Sources */,
+				55FF312A23A99BF100D68385 /* gl_pixel_projection.cpp in Sources */,
+				55FF314323A99FC700D68385 /* Tissue_Genotype_History.cpp in Sources */,
+				55FF313323A99DA300D68385 /* Tissue.cpp in Sources */,
+				55FF314023A99F4C00D68385 /* Tissue_Parameters.cpp in Sources */,
+				55FF315723A9A2F200D68385 /* reviewGUI.cpp in Sources */,
+				55FF314F23A9A18F00D68385 /* Hash.cpp in Sources */,
+				55FF312723A99B8000D68385 /* Caption.cpp in Sources */,
+				5548A21C23A98F4C00BC661C /* Connect_Adjacent_Points.cpp in Sources */,
+				5548A20A23A982DA00BC661C /* View_3d.cpp in Sources */,
+				5548A21823A98EA900BC661C /* Bit_Vector.cpp in Sources */,
+				55FF315923A9A32B00D68385 /* Tissue_Parameters_Dialog.cpp in Sources */,
+				5548A20623A9825A00BC661C /* Dual_3d_View.cpp in Sources */,
+				55FF313A23A99EA900D68385 /* Unlikely_Event.cpp in Sources */,
+				55FF315223A9A20800D68385 /* gl_unproject.cpp in Sources */,
+				55FF313D23A99EF600D68385 /* Small_Sequence.cpp in Sources */,
+				55FF313023A99CF300D68385 /* History_View.cpp in Sources */,
+				5548A20323A981B500BC661C /* Case.cpp in Sources */,
+				55FF314623A9A08D00D68385 /* Color_Key.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5548A1F923A97D8C00BC661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5548A1FA23A97D8C00BC661C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5548A1FC23A97D8C00BC661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-I/opt/X11/include",
+					"-I/usr/local/Cellar/glui/2.37/include/GL",
+					"-I/usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0",
+					"-I/usr/local/Cellar/gtk+/2.24.32_3/lib/gtk-2.0",
+					"-I/usr/local/Cellar/gdk-pixbuf/2.40.0/include/gdk-pixbuf-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/lib/glib-2.0",
+					"-I/usr/local/Cellar/pango/1.44.7/include/pango-1.0/",
+					"-I/usr/local/Cellar/harfbuzz/2.6.4/include/harfbuzz",
+					"-I/usr/local/Cellar/atk/2.34.1/include/atk-1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5548A1FD23A97D8C00BC661C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-I/opt/X11/include",
+					"-I/usr/local/Cellar/glui/2.37/include/GL",
+					"-I/usr/local/Cellar/gtk+/2.24.32_3/include/gtk-2.0",
+					"-I/usr/local/Cellar/gtk+/2.24.32_3/lib/gtk-2.0",
+					"-I/usr/local/Cellar/gdk-pixbuf/2.40.0/include/gdk-pixbuf-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.3/lib/glib-2.0",
+					"-I/usr/local/Cellar/pango/1.44.7/include/pango-1.0/",
+					"-I/usr/local/Cellar/harfbuzz/2.6.4/include/harfbuzz",
+					"-I/usr/local/Cellar/atk/2.34.1/include/atk-1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5548A1EF23A97D8C00BC661C /* Build configuration list for PBXProject "CancerSim2_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5548A1F923A97D8C00BC661C /* Debug */,
+				5548A1FA23A97D8C00BC661C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5548A1FB23A97D8C00BC661C /* Build configuration list for PBXNativeTarget "CancerSim2_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5548A1FC23A97D8C00BC661C /* Debug */,
+				5548A1FD23A97D8C00BC661C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5548A1EC23A97D8C00BC661C /* Project object */;
+}
